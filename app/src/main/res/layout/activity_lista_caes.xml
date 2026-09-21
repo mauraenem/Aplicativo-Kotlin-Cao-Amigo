@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista de Cães"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnNovoCao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ CADASTRAR NOVO CÃO"
+            android:layout_marginBottom="24dp" />
+
+        <ImageButton
+            android:id="@+id/imgCao1"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:contentDescription="Cão"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/txtCao1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cão"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <ImageButton
+            android:id="@+id/imgCao2"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:contentDescription="Cão"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/txtCao2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cão"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <ImageButton
+            android:id="@+id/imgCao3"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:contentDescription="Cão"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/txtCao3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cão"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <ImageButton
+            android:id="@+id/imgCao4"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:contentDescription="Cão"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/txtCao4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cão"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <ImageButton
+            android:id="@+id/imgCao5"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:contentDescription="Cão"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/txtCao5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cão"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/txtPagina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Página 1 de 1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnPaginaAnterior"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ANTERIOR" />
+
+            <Button
+                android:id="@+id/btnProximaPagina"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PRÓXIMA" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro de Cuidado"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cão"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecione os cuidados realizados:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <CheckBox
+            android:id="@+id/checkAlimentacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alimentação" />
+
+        <CheckBox
+            android:id="@+id/checkAgua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Água" />
+
+        <CheckBox
+            android:id="@+id/checkRemedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remédio" />
+
+        <CheckBox
+            android:id="@+id/checkVacina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vacina" />
+
+        <CheckBox
+            android:id="@+id/checkCama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cama" />
+
+        <CheckBox
+            android:id="@+id/checkCobertor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cobertor" />
+
+        <CheckBox
+            android:id="@+id/checkOutros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Outros" />
+
+        <EditText
+            android:id="@+id/edtOutros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descreva outro cuidado"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data do cuidado"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite a data"
+            android:inputType="date"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora do cuidado"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite a hora"
+            android:inputType="time"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnSalvarCuidado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SALVAR CUIDADO" />
+
+    </LinearLayout>
+
+</ScrollView>

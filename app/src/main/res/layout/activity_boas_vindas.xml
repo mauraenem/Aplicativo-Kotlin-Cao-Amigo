@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://android.com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🐾"
+        android:textSize="72sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvBoasVindas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Que bom ter você aqui!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- ESTE É O BOTÃO QUE O KOTLIN ESTÁ PROCURANDO -->
+    <Button
+        android:id="@+id/btnIrParaHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acessar o Painel Principal"
+        android:textSize="18sp" />
+
+</LinearLayout>
