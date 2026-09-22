@@ -1,7 +1,9 @@
 # 🐶 Cão Amigo - Aplicativo Android
 
-O **Cão Amigo** é um aplicativo mobile desenvolvido no **Android Studio** utilizando a linguagem **Kotlin**.
-Ele foi criado com o objetivo de ajudar tutores no registro, cuidados e acompanhamento da rotina de seus animais de estimação.
+O **Cão Amigo** é um aplicativo mobile desenvolvido no **Android Studio** utilizando a linguagem **Kotlin**. Ele foi criado com o objetivo de ajudar tutores no registro, cuidados e acompanhamento da rotina de seus animais de estimação.
+
+## 🎓 Contexto Acadêmico
+Projeto desenvolvido para a matéria de **Atividades Extensionistas I**, utilizando os conhecimentos adquiridos durante as aulas de **ADS** do **Professor Leonel da Rocha**, com o objetivo de praticar a construção de apps no Android Studio com o uso de Kotlin/Java na matéria **Fundamentos do Desenvolvimento Mobile**.
 
 ## 📱 Funcionalidades
 - **Cadastro do Pet:** Registro de informações importantes como nome e dados essenciais.
